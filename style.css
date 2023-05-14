@@ -88,6 +88,18 @@ header ul li{
     text-align: justify;
     padding-right: 50px;
 }
+.banner .content p{
+    font-family: 'DT PhuDu', cursive;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+.banner .content span{
+    background: var(--gradient-bg);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
 .banner .content h1{
     font-size: 4.5em;
     margin: 0;
