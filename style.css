@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-@font-face {
+/* @font-face {
     font-family: 'DT PhuDu';
-    src: url('C:/Users/84383/Downloads/DT_phudu');
-}
+    src: url('C:/Users/84383/Downloads/DT_phudu'); */
+/* } */
 html{
     scroll-behavior: smooth;
 }
@@ -132,10 +132,10 @@ header ul li{
     }
 }
 @keyframes changeText{
-    from{
+    0%{
         content: attr(data-job1);
     }
-    to{
+    100%{
         content: attr(data-job2);
     }
 }
@@ -285,7 +285,10 @@ header input{
         grid-template-columns: 40% 60%;
     }
     .banner .content h1{
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+    .banner .content p{
+        font-size: 1em;
     }
     .listProject{
         grid-template-columns: repeat(2, 1fr);
